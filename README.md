@@ -11,18 +11,18 @@ Dataset:
 Dataset consist of 12 features and one target variable.
 
 Features are as follows:
-CustomerId: Customer Id, int
-Surname: string
-CreditScore: Credit Score of customer, int
-Geography: France, Spain or Germany, qualitative
-Gender: Male or Female, qualitative
-Age: Integer
-Tenure: For how long customer is associated with the bank, int
-Balance: float
-NumOfProducts: Number of products customer has such as debit card, number of policies, etc, int
-HasCrCard: Has credit card or not, 0 or 1
-IsActiveMember: Is an active member in the past 6 months, 0 or 1
-EstimatedSalary: Salary of the customer, float
+1. CustomerId: Customer Id, int
+2. Surname: string
+3. CreditScore: Credit Score of customer, int
+4. Geography: France, Spain or Germany, qualitative
+5. Gender: Male or Female, qualitative
+6. Age: Integer
+7. Tenure: For how long customer is associated with the bank, int
+8. Balance: float
+9. NumOfProducts: Number of products customer has such as debit card, number of policies, etc, int
+10. HasCrCard: Has credit card or not, 0 or 1
+11. IsActiveMember: Is an active member in the past 6 months, 0 or 1
+12. EstimatedSalary: Salary of the customer, float
 
 Target Variable:
 Exited:  0 or 1
