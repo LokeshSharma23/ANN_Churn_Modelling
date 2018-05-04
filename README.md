@@ -37,7 +37,7 @@ Model Building Steps;
 7. First layer consist of 11 number of nodes same as the number of features in our model.
 8. Two Hidden layers were built that consist of 6 nodes each (average of input layer nodes and output layer node). Hidden layer is activated by using ‘Rectifier function’.
 9. Output layer consist of one node and is activated using ‘Sigmoid Function’.
-10. Stochastic Gradient Descent is used as an Optimizer where it works in batches and Crossentropy is used as loss function.
+10. 'adam' is used as an Optimizer and Binary Crossentropy is used as loss function.
 11. Model was trained on taking batch of 10 observation and running it for 100 epochs.
 12. Finally Classification Reports and Confusion matrix was generating resulting in f1 score of 82% and accuracy of 84.6%.
 13. Also, I applied XGBoost Classifier on the same dataset that resulted in slightly better accuracy of 86.29%.
